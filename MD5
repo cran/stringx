@@ -1,7 +1,8 @@
-4c7ed1129359dd906230901579bd8e12 *DESCRIPTION
-e2b7b4f619627b0711104bc61da8d9fb *NAMESPACE
-3c161235f36bc4ea60bb8414bb080107 *NEWS
-53abfff50ccd6a5dd7170462703049c2 *R/about_stringx.R
+5a3e80a4179db585a2c98d61609317a6 *DESCRIPTION
+7427971571f89d79d682c083b55f7df5 *NAMESPACE
+a998487f1c29d4217d850fd1536d7db4 *NEWS
+3fb3e84652419e2c8fc245790953fb56 *R/ISOdatetime.R
+16b30d555427a177702d36c02040bb15 *R/about_stringx.R
 e578f24894f339d24db9540ef1b67964 *R/chartr.R
 9a1906cdfa6eb70111a96904418a7e86 *R/common.R
 1b203082d248ba2d3d0bf692dd6b60ba *R/constants.R
@@ -15,7 +16,7 @@ a2ef5e27fd5bfba890f9ee0fee6b112a *R/gregextr.R
 8bfe624fafdd0353d50902a329c4a26e *R/sprintf.R
 b82c8b65aa90aecbb7cde4a41718d3b5 *R/startswith.R
 f58938f21bfa7c1a91206c407411980f *R/strcoll.R
-f248f40bf783ddf366b2b9b6cb9826d5 *R/strptime.R
+b127ed7b17db6fba2a32d4eba0bd4b6a *R/strptime.R
 e0c0ac6847047dc9fe2e0621c3d04196 *R/strrep.R
 b9505733e923a8cb40760dea800a8afb *R/strsplit.R
 68e1acbef13d4e288717c218c14e9846 *R/strtrim.R
@@ -23,8 +24,9 @@ b63ac744b76fe71d0bbf043f6a7e0f52 *R/strwrap.R
 b400f72a914f28789d6e93229a957059 *R/substr.R
 408dab0d3344cd79eaec5742460a50a5 *R/trimws.R
 62a8925c14facbe96db47e391b812b33 *inst/CITATION
-39cf2a2675f0604ddc767b0d61141fb4 *inst/realtest/casemap-all.R
-a7bd883a178cafe326442166c0ca01a4 *inst/realtest/casemap-stringx.R
+3d8932adeee99d5764f776753aae521e *inst/realtest/ISOdatetime-all.R
+8d7847ba809a6a6f3367f73e2ed1d28e *inst/realtest/casemap-all.R
+ed9b9627cf63c682e164d18ff70d0286 *inst/realtest/casemap-stringx.R
 c09fdf28bb5e5922c66a1ef2ac51e016 *inst/realtest/chartr-all.R
 f329f073adfa8e15c2070c36ac624d5c *inst/realtest/chartr-stringx.R
 446de37155044de58d2c3ae971410f21 *inst/realtest/constants-stringx.R
@@ -45,8 +47,8 @@ ae96d3c97c8040a287b76f2362d9827c *inst/realtest/sprintf-all.R
 e541f231fc21606cd154fcc946039f29 *inst/realtest/startswith-all.R
 f0fb199061d377135d102a52b5e21ced *inst/realtest/startswith-stringx.R
 016f3f19cde1c971cb8f5a88c34c8af3 *inst/realtest/strcoll-stringx.R
-25e16659921117cead4dcf8ae33e4faa *inst/realtest/strptime-all.R
-bbbec9b4ebaa364ff1e647de8c5fa802 *inst/realtest/strptime-stringx.R
+bb7bf15f9bcaab9a1f0dcc81aa64ddae *inst/realtest/strptime-all.R
+f7caa3276fad02f31f87d71896aedd1b *inst/realtest/strptime-stringx.R
 e6844014e8b8bff08cdcdf8ea0e8b3f2 *inst/realtest/strrep-all.R
 1b528c3bd68cd21dea832acbd8c22f90 *inst/realtest/strrep-stringx.R
 e2b937e0ff3418b653bc24c4d688d24b *inst/realtest/strsplit-all.R
@@ -56,7 +58,8 @@ b03502f61939b482c036be700bf7726d *inst/realtest/strwrap-all.R
 2df83046962d44bbd2971d350a2285ff *inst/realtest/substr-all.R
 7a29ae0e321040aa3332ee14c8cf4b02 *inst/realtest/substr-stringx.R
 3620f3e5addf5883de2959fdac6d0a52 *inst/realtest/trimws-all.R
-174f0ab166a02142b19fd2f9c99004a7 *man/about_stringx.Rd
+84e00a66572917f260e3710406d00e28 *man/ISOdatetime.Rd
+bcd33be2feb63108cd9fc14caf54feab *man/about_stringx.Rd
 2d3fcad46570bec2c319e9579567ba63 *man/chartr.Rd
 ac075f3816ec4b8d16561a01053de3dc *man/constants.Rd
 71b383fdf63fff6a8f162313f5186e34 *man/gregexpr.Rd
@@ -69,7 +72,7 @@ c6f156cfb516a2226cddb1139e01ed01 *man/gsub.Rd
 30d41cc00051b29549c3f0492c1f8d52 *man/sprintf.Rd
 48410a145fd573e471c2341147526e42 *man/startswith.Rd
 d6d464cc8234ea4f609d459edfad932e *man/strcoll.Rd
-86bb62ad4991b7a84634c7d47a04f244 *man/strptime.Rd
+ae2c10d6151ce804e8b717ac6a85df57 *man/strptime.Rd
 b5ac2f8d8ab3b58397b3d32171e8f308 *man/strrep.Rd
 a6e2d082c9bf47f8fafc04c1473d88ff *man/strsplit.Rd
 15cbc7e6ee5d218bb703ba64cde80806 *man/strtrim.Rd
