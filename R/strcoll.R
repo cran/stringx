@@ -1,7 +1,7 @@
 # kate: default-dictionary en_AU
 
 ## stringx package for R
-## Copyleft (C) 2021, Marek Gagolewski <https://www.gagolewski.com>
+## Copyleft (C) 2021-2022, Marek Gagolewski <https://www.gagolewski.com>
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -66,7 +66,7 @@
 #'
 #'
 #' @return
-#' \code{strcmp} returns an integer vector representing the comparison results:
+#' \code{strcoll} returns an integer vector representing the comparison results:
 #' if a string in \code{e1} is smaller than the corresponding string in
 #' \code{e2}, the corresponding result will be equal to \code{-1}, and
 #' \code{0} if they are canonically equivalent,
