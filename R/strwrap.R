@@ -1,7 +1,7 @@
 # kate: default-dictionary en_AU
 
 ## stringx package for R
-## Copyleft (C) 2021-2022, Marek Gagolewski <https://www.gagolewski.com>
+## Copyleft (C) 2021-2023, Marek Gagolewski <https://www.gagolewski.com>
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -18,15 +18,12 @@
 #' @title
 #' Word-Wrap Text
 #'
-#'
 #' @description
 #' Splits each string into words which are then arranged to form text lines
-#' of no more of a given width.
-#'
+#' of mo more than a given width.
 #'
 #' @details
 #' Might be useful when displaying strings using a monospaced font.
-#'
 #'
 #' @section Differences from Base R:
 #' Replacement for base \code{\link[base]{strwrap}}

@@ -1,7 +1,7 @@
 # kate: default-dictionary en_AU
 
 ## stringx package for R
-## Copyleft (C) 2021-2022, Marek Gagolewski <https://www.gagolewski.com>
+## Copyleft (C) 2021-2023, Marek Gagolewski <https://www.gagolewski.com>
 ##
 ## This program is free software; you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -70,11 +70,10 @@
 #'     \bold{[fixed here]}
 #' \item partial recycling with no warning
 #'     \bold{[fixed here]}
-#' \item if the replacement string of different length than the chunk
-#'     being substituted, then
-#'     \bold{[fixed here]}
+#' \item the replacement must be of the same length as the chunk
+#'     being substituted \bold{[fixed here]}
 #' \item negative indexes are silently treated as 1
-#'     \bold{[changed here -- negative indexes count from the end of the string]}
+#'     \bold{[changed here: negative indexes count from the end of the string]}
 #' \item replacement of different length than the extracted substring
 #'     never changes the length of the string
 #'     \bold{[changed here -- output length is input length minus
