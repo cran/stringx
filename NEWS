@@ -5,6 +5,14 @@
 > see <https://github.com/gagolews/stringx/issues>.
 
 
+## 0.2.6 (2023-11-30)
+
+* [BACKWARD INCOMPATIBILITY] `strptime` fills missing fields based
+    on today's midnight, due to a change in *stringi*-1.8.1.
+
+* [BUGFIX] #13: Subtracting of objects of class `POSIXxt` resulted in an error.
+
+
 ## 0.2.5 (2023-05-21)
 
 * [BUGFIX] Fixed failing checks/tests due to some updates in R.
@@ -56,9 +64,9 @@
 
 ## 0.1.1 (2021-07-15)
 
-* [GENERAL] [On-line manual](https://stringx.gagolewski.com) is now available.
+* [GENERAL] [On-line manual](https://stringx.gagolewski.com/) is now available.
 
-* [GENERAL] Using [*realtest*](https://realtest.gagolewski.com)
+* [GENERAL] Using [*realtest*](https://realtest.gagolewski.com/)
   for documenting base R behaviour, unit testing, and desired outcomes.
 
 * [NEW FEATURE] Added constants: `letters_greek`, `digits_hex`, etc.
