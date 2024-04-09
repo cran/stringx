@@ -1,8 +1,8 @@
 Package: stringx
 Type: Package
 Title: Replacements for Base String Functions Powered by 'stringi'
-Version: 0.2.6
-Date: 2023-11-30
+Version: 0.2.8
+Date: 2024-04-09
 Authors@R: c(
     person("Marek", "Gagolewski",
         role = c("aut", "cre", "cph"),
@@ -32,9 +32,9 @@ Suggests: realtest (>= 0.2.1)
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2023-11-29 22:12:47 UTC; gagolews
+Packaged: 2024-04-09 08:06:57 UTC; gagolews
 Author: Marek Gagolewski [aut, cre, cph]
     (<https://orcid.org/0000-0003-0637-6028>)
 Maintainer: Marek Gagolewski <marek@gagolewski.com>
 Repository: CRAN
-Date/Publication: 2023-11-29 23:00:02 UTC
+Date/Publication: 2024-04-09 11:30:02 UTC
