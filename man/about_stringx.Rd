@@ -2,9 +2,9 @@
 % Please edit documentation in R/about_stringx.R
 \docType{package}
 \name{about_stringx}
+
 \alias{about_stringx}
 \alias{stringx}
-\alias{stringx-package}
 \title{Drop-in Replacements for Base String Functions Powered by Stringi}
 \description{
 \pkg{stringx} reimplements the built-in R string processing functions
@@ -33,4 +33,5 @@ internationalisation, localisation, ICU, ICU4C, i18n, l10n, Unicode
 }
 \seealso{
 The official online manual of \pkg{stringx} at \url{https://stringx.gagolewski.com/}
+
 }
